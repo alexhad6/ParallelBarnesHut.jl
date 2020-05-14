@@ -1,5 +1,5 @@
 # ParallelBarnesHut.jl
-A parallel Barnes Hut package for Julia.
+A parallel Barnes Hut package for Julia. Note that currently, the following examples are not particularly accurate for a given galaxy, but the user can create custom initial particle distributions.
 
 ## Installing
 Run the following code in Julia to install the ParallelBarnesHut package:
