@@ -55,14 +55,14 @@ We can view the particles using the `show_particles` function.
 ```julia
 show_particles(particles)
 ```
-![view_particles](view_particles.svg)
+![view_particles](img/view_particles.svg)
 
 ### Visualize the Barnes Hut Octree
 We can visualize cubical regions represented by nodes in the 3D Barnes Hut octree using the `show_boxes` function.
 ```julia
 show_boxes(particles)
 ```
-![visualize_octree](visualize_octree.svg)
+![visualize_octree](img/visualize_octree.svg)
 
 ### Barnes Hut Simulation
 To run a Barnes Hut simulation and save frames of the states of all particles at each time step, we can use `simulate!`. The following code runs a simulation on our particles using the default values and going for 5000 time steps.
@@ -75,4 +75,4 @@ The following code generates an animation, displaying every 5 frames (so 1000 fr
 ```julia
 animate_frames(frames, 5, quadview = true)
 ```
-![galaxy_simulation](animation_example.gif)
+![galaxy_simulation](img/animation_example.gif)
