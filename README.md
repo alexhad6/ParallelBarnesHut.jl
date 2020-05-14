@@ -1,5 +1,7 @@
 # ParallelBarnesHut.jl
-A parallel Barnes Hut package for Julia. Note that currently, the following examples are not particularly accurate for a given galaxy, but the user can create custom initial particle distributions.
+A parallel Barnes Hut package for Julia. Note that currently, the following examples do not use initial conditions which are particlarly accurate for learning about an actual galaxy, but the user can create custom initial particle distributions.
+
+More tools, such as better initial distribution generators, dark matter particles, and plots of total energy and angular momentum over time would be useful additions in the future.
 
 ## Installing
 Run the following code in Julia to install the ParallelBarnesHut package:
